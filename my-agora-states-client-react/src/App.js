@@ -18,7 +18,7 @@ function App() {
   };
 
   const addDiscussion = ({ title, author, bodyText }) => {
-    const newDiscussionData = {
+    const newDiscussionData = { 
       title: title,
       author: author,
       bodyHTML: bodyText,
